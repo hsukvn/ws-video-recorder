@@ -1,0 +1,14 @@
+{
+  "name": "ws-video-recorder",
+  "version": "1.0.0",
+  "description": "",
+  "main": "recorder.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "hsukvn",
+  "license": "ISC",
+  "dependencies": {
+    "ws": "^8.4.2"
+  }
+}
