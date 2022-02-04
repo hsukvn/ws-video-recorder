@@ -1,0 +1,11 @@
+[Unit]
+Description=ws video recorder
+After=network.target
+
+[Service]
+ExecStart=/usr/bin/node /src/ws-video-recorder/recorder.js
+Restart=always
+Type=simple
+
+[Install]
+WantedBy=multi-user.target
